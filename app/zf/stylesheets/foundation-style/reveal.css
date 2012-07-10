@@ -1,0 +1,112 @@
+/* CSS for jQuery Reveal Plugin
+ * Maintained for Foundation. foundation.zurb.com
+ * Free to use under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ */
+/* Reveal Modals ---------------------- */
+/* line 9, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/reveal.scss */
+.reveal-modal-bg {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background: #000;
+  background: rgba(0, 0, 0, 0.45);
+  z-index: 40;
+  display: none;
+  top: 0;
+  left: 0;
+}
+
+/* line 11, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/reveal.scss */
+.reveal-modal {
+  background: white;
+  visibility: hidden;
+  display: none;
+  top: 100px;
+  left: 50%;
+  margin-left: -260px;
+  width: 520px;
+  position: absolute;
+  z-index: 41;
+  padding: 30px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+/* line 12, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/reveal.scss */
+.reveal-modal *:first-child {
+  margin-top: 0;
+}
+/* line 13, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/reveal.scss */
+.reveal-modal *:last-child {
+  margin-bottom: 0;
+}
+/* line 14, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/reveal.scss */
+.reveal-modal .close-reveal-modal {
+  font-size: 22px;
+  font-size: 2.2rem;
+  line-height: .5;
+  position: absolute;
+  top: 8px;
+  right: 11px;
+  color: #aaa;
+  text-shadow: 0 -1px 1px rbga(0, 0, 0, 0.6);
+  font-weight: bold;
+  cursor: pointer;
+}
+/* line 25, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/reveal.scss */
+.reveal-modal.small {
+  width: 30%;
+  margin-left: -10%;
+}
+/* line 26, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/reveal.scss */
+.reveal-modal.medium {
+  width: 40%;
+  margin-left: -20%;
+}
+/* line 27, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/reveal.scss */
+.reveal-modal.large {
+  width: 60%;
+  margin-left: -30%;
+}
+/* line 28, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/reveal.scss */
+.reveal-modal.expand {
+  width: 90%;
+  margin-left: -45%;
+}
+/* line 29, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/reveal.scss */
+.reveal-modal .row {
+  min-width: 0;
+}
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+  /* line 34, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/reveal.scss */
+  .reveal-modal-bg {
+    position: absolute;
+  }
+
+  /* line 40, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/reveal.scss */
+  .reveal-modal,
+  .reveal-modal.small,
+  .reveal-modal.medium,
+  .reveal-modal.large,
+  .reveal-modal.xlarge {
+    width: 80%;
+    top: 15px;
+    left: 50%;
+    margin-left: -40%;
+    padding: 20px;
+    height: auto;
+  }
+}
+  /* NOTES
+  Close button entity is &#215;
+
+  Example markup
+  <div id="myModal" class="reveal-modal">
+   <h2>Awesome. I have it.</h2>
+   <p class="lead">Your couch.  I it's mine.</p>
+   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ultrices aliquet placerat. Duis pulvinar orci et nisi euismod vitae tempus lorem consectetur. Duis at magna quis turpis mattis venenatis eget id diam. </p>
+   <a class="close-reveal-modal">&#215;</a>
+  </div> */

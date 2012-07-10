@@ -1,0 +1,107 @@
+/* Requires:
+   normalize.css
+   -box-sizing.htc */
+/* Global Reset & Standards ---------------------- */
+/* line 7, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/globals.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 8, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/globals.scss */
+html {
+  font-size: 62.5%;
+}
+
+/* line 9, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/globals.scss */
+body {
+  background: white;
+  font-family: "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 14px;
+  font-size: 1.4rem;
+  line-height: 1;
+  color: #222222;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Links ---------------------- */
+/* line 13, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/globals.scss */
+a {
+  color: #2ba6cb;
+  text-decoration: none;
+  line-height: inherit;
+}
+
+/* line 14, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/globals.scss */
+a:hover {
+  color: #2795b6;
+}
+
+/* line 15, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/globals.scss */
+a:focus {
+  color: #2ba6cb;
+  outline: none;
+}
+
+/* line 16, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/globals.scss */
+p a, p a:visited {
+  line-height: inherit;
+}
+
+/* Misc ---------------------- */
+/* line 20, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/globals.scss */
+.left {
+  float: left;
+}
+
+/* line 21, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/globals.scss */
+.right {
+  float: right;
+}
+
+/* line 22, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/globals.scss */
+.text-left {
+  text-align: left;
+}
+
+/* line 23, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/globals.scss */
+.text-right {
+  text-align: right;
+}
+
+/* line 24, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/globals.scss */
+.text-center {
+  text-align: center;
+}
+
+/* line 25, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/globals.scss */
+.hide {
+  display: none;
+}
+
+/* line 26, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/globals.scss */
+.highlight {
+  background: #ffff99;
+}
+
+/* line 28, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/globals.scss */
+#googlemap img, object, embed {
+  max-width: none;
+}
+
+/* line 30, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/globals.scss */
+#map_canvas embed {
+  max-width: none;
+}
+
+/* line 31, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/globals.scss */
+#map_canvas img {
+  max-width: none;
+}
+
+/* line 32, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/globals.scss */
+#map_canvas object {
+  max-width: none;
+}

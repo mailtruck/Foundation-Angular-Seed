@@ -1,0 +1,335 @@
+/* Requires
+   globals.css */
+/* line 4, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/navbar.scss */
+.nav-bar {
+  height: 40px;
+  background: #4d4d4d;
+  margin-top: 20px;
+  padding: 0;
+}
+/* line 6, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/navbar.scss */
+.nav-bar > li {
+  float: left;
+  display: block;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #333333;
+  border-right: none;
+  line-height: 38px;
+  -webkit-box-shadow: 1px 0 0 rgba(255, 255, 255, 0.2) inset;
+  -moz-box-shadow: 1px 0 0 rgba(255, 255, 255, 0.2) inset;
+  box-shadow: 1px 0 0 rgba(255, 255, 255, 0.2) inset;
+}
+/* line 8, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/navbar.scss */
+.nav-bar > li:first-child {
+  -webkit-box-shadow: 0 0 0;
+  -moz-box-shadow: 0 0 0;
+  box-shadow: 0 0 0;
+}
+/* line 9, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/navbar.scss */
+.nav-bar > li:last-child {
+  border-right: solid 1px #333333;
+  -webkit-box-shadow: 1px 0 0 rgba(255, 255, 255, 0.2) inset, 1px 0 0 rgba(255, 255, 255, 0.2);
+  -moz-box-shadow: 1px 0 0 rgba(255, 255, 255, 0.2) inset, 1px 0 0 rgba(255, 255, 255, 0.2);
+  box-shadow: 1px 0 0 rgba(255, 255, 255, 0.2) inset, 1px 0 0 rgba(255, 255, 255, 0.2);
+}
+/* line 11, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/navbar.scss */
+.nav-bar > li.active {
+  background: #2ba6cb;
+  border-color: #2284a1;
+}
+/* line 12, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/navbar.scss */
+.nav-bar > li.active > a {
+  color: white;
+  cursor: default;
+}
+/* line 13, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/navbar.scss */
+.nav-bar > li.active:hover {
+  background: #2ba6cb;
+  cursor: default;
+}
+/* line 15, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/navbar.scss */
+.nav-bar > li:hover {
+  background: #333333;
+}
+/* line 17, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/navbar.scss */
+.nav-bar > li a {
+  color: #e6e6e6;
+}
+/* line 18, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/navbar.scss */
+.nav-bar > li ul {
+  margin-bottom: 0;
+}
+/* line 19, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/navbar.scss */
+.nav-bar > li .flyout {
+  display: none;
+}
+/* line 22, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/navbar.scss */
+.nav-bar > li.has-flyout > a:first-child {
+  padding-right: 36px;
+  position: relative;
+}
+/* line 23, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/navbar.scss */
+.nav-bar > li.has-flyout > a:first-child:after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border: solid 4px;
+  border-color: #e6e6e6 transparent transparent transparent;
+  position: absolute;
+  right: 20px;
+  top: 17px;
+}
+/* line 25, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/navbar.scss */
+.nav-bar > li.has-flyout > a.flyout-toggle {
+  border-left: 0 !important;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 22px;
+  z-index: 2;
+  display: block;
+}
+/* line 27, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/navbar.scss */
+.nav-bar > li.has-flyout.is-touch > a:first-child {
+  padding-right: 55px;
+}
+/* line 28, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/navbar.scss */
+.nav-bar > li.has-flyout.is-touch > a.flyout-toggle {
+  border-left: 1px dashed #666;
+}
+/* line 33, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/navbar.scss */
+.nav-bar > li > a:first-child {
+  position: relative;
+  padding: 0 20px;
+  display: block;
+  text-decoration: none;
+  font-size: 14px;
+}
+/* line 34, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/navbar.scss */
+.nav-bar > li > input {
+  margin: 0 10px;
+}
+/* line 36, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/navbar.scss */
+.nav-bar.vertical {
+  height: auto;
+  margin-top: 0;
+}
+/* line 38, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/navbar.scss */
+.nav-bar.vertical > li {
+  float: none;
+  border-bottom: none;
+}
+/* line 40, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/navbar.scss */
+.nav-bar.vertical > li.has-flyout > a:first-child:after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border: solid 4px;
+  border-color: transparent transparent transparent #e6e6e6;
+}
+/* line 41, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/navbar.scss */
+.nav-bar.vertical > li .flyout {
+  left: 100%;
+  top: -1px;
+}
+/* line 42, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/navbar.scss */
+.nav-bar.vertical > li .flyout.right {
+  left: auto;
+  right: 100%;
+}
+
+/* line 49, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/navbar.scss */
+.flyout {
+  background: #f2f2f2;
+  padding: 20px;
+  margin: 0;
+  border: 1px solid #d9d9d9;
+  position: absolute;
+  top: 39px;
+  left: -1px;
+  width: 250px;
+  z-index: 40;
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  /* remove margin on any first-child element */
+  /* remove margin on last element */
+}
+/* line 51, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/navbar.scss */
+.flyout p {
+  line-height: 1.2;
+  font-size: 13px;
+}
+/* line 52, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/navbar.scss */
+.flyout *:first-child {
+  margin-top: 0;
+}
+/* line 53, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/navbar.scss */
+.flyout *:last-child {
+  margin-bottom: 0;
+}
+/* line 55, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/navbar.scss */
+.flyout.small {
+  width: 166.667px;
+}
+/* line 56, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/navbar.scss */
+.flyout.large {
+  width: 437.5px;
+}
+/* line 58, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/navbar.scss */
+.flyout.right {
+  left: auto;
+  right: -2px;
+}
+/* line 59, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/navbar.scss */
+.flyout.up {
+  top: auto;
+  bottom: 39px;
+}
+
+/* line 63, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/navbar.scss */
+ul.flyout, .nav-bar li ul {
+  padding: 0;
+  list-style: none;
+}
+/* line 65, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/navbar.scss */
+ul.flyout li, .nav-bar li ul li {
+  border-left: solid 3px #CCC;
+}
+/* line 66, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/navbar.scss */
+ul.flyout li a, .nav-bar li ul li a {
+  background: #f2f2f2;
+  border: 1px solid #e6e6e6;
+  border-width: 1px 1px 0 0;
+  color: #555;
+  display: block;
+  font-size: 14px;
+  height: auto;
+  line-height: 1;
+  padding: 15px 20px;
+  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+  -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+}
+/* line 67, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/navbar.scss */
+ul.flyout li a:hover, .nav-bar li ul li a:hover {
+  background: #ebebeb;
+  color: #333;
+}
+/* line 69, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/navbar.scss */
+ul.flyout li.active, .nav-bar li ul li.active {
+  margin-top: 0;
+  border-top: 1px solid #4d4d4d;
+  border-left: 4px solid #1a1a1a;
+}
+/* line 70, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/navbar.scss */
+ul.flyout li.active a, .nav-bar li ul li.active a {
+  background: #4d4d4d;
+  border: none;
+  color: #fff;
+  height: auto;
+  margin: 0;
+  position: static;
+  top: 0;
+  -webkit-box-shadow: 0 0 0;
+  -moz-box-shadow: 0 0 0;
+  box-shadow: 0 0 0;
+}
+
+/* Mobile Styles */
+@media only screen and (max-device-width: 1280px) {
+  /* line 79, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/navbar.scss */
+  .touch .nav-bar li.has-flyout > a {
+    padding-right: 36px !important;
+  }
+}
+@media only screen and (max-width: 1279px) and (min-width: 768px) {
+  /* line 83, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/navbar.scss */
+  .touch .nav-bar li a {
+    font-size: 13px;
+    font-size: 1.3rem;
+  }
+
+  /* line 84, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/navbar.scss */
+  .touch .nav-bar li.has-flyout > a.flyout-toggle {
+    padding: 20px !important;
+  }
+
+  /* line 85, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/navbar.scss */
+  .touch .nav-bar li.has-flyout > a {
+    padding-right: 36px !important;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 89, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/navbar.scss */
+  .nav-bar {
+    height: auto;
+  }
+  /* line 91, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/navbar.scss */
+  .nav-bar > li {
+    float: none;
+    display: block;
+    border-right: none;
+  }
+  /* line 92, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/navbar.scss */
+  .nav-bar > li > a.main {
+    text-align: left;
+    border-top: 1px solid #ddd;
+    border-right: none;
+  }
+  /* line 93, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/navbar.scss */
+  .nav-bar > li:first-child > a.main {
+    border-top: none;
+  }
+  /* line 94, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/navbar.scss */
+  .nav-bar > li.has-flyout > a.flyout-toggle {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 22px;
+    z-index: 2;
+    display: block;
+  }
+  /* line 95, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/navbar.scss */
+  .nav-bar > li.has-flyout.is-touch > a.flyout-toggle span {
+    content: "";
+    width: 0;
+    height: 0;
+    display: block;
+  }
+  /* line 96, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/navbar.scss */
+  .nav-bar > li.has-flyout > a.flyout-toggle:hover span {
+    border-top-color: #141414;
+  }
+  /* line 97, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/navbar.scss */
+  .nav-bar.vertical > li.has-flyout > .flyout {
+    left: 0;
+  }
+
+  /* line 100, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/navbar.scss */
+  .flyout {
+    position: relative;
+    width: 100% !important;
+    top: auto;
+    margin-right: -2px;
+    border-width: 1px 1px 0 1px;
+  }
+  /* line 102, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/navbar.scss */
+  .flyout.right {
+    float: none;
+    right: auto;
+    left: -1px;
+  }
+  /* line 103, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/navbar.scss */
+  .flyout.small, .flyout.large {
+    width: 100% !important;
+  }
+  /* line 104, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-3.0.5/stylesheets/foundation/navbar.scss */
+  .flyout p:last-child {
+    margin-bottom: 18px;
+  }
+}
